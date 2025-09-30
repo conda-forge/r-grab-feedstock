@@ -13,6 +13,8 @@ Package license: GPL-2.0-or-later
 
 Summary: Provides a comprehensive suite of genome-wide association study (GWAS) methods specifically designed for biobank-scale data. The package offers computationally efficient and robust association tests for time-to-event traits (e.g., Bi et al., 2020 <doi:10.1016/j.ajhg.2020.06.003>), ordinal categorical traits (e.g., Bi et al., 2021 <doi:10.1016/j.ajhg.2021.03.019>), and longitudinal traits (Xu et al., 2025 <doi:10.1038/s41467-025-56669-1>). Additionally, it includes functions for simulating genotype and phenotype data to support research and method development.
 
+Development: https://github.com/cran/GRAB
+
 About r-grab
 ------------
 
@@ -21,6 +23,8 @@ Home: https://CRAN.R-project.org/package=GRAB
 Package license: GPL-2.0-or-later
 
 Summary: Provides a comprehensive suite of genome-wide association study (GWAS) methods specifically designed for biobank-scale data. The package offers computationally efficient and robust association tests for time-to-event traits (e.g., Bi et al., 2020 <doi:10.1016/j.ajhg.2020.06.003>), ordinal categorical traits (e.g., Bi et al., 2021 <doi:10.1016/j.ajhg.2021.03.019>), and longitudinal traits (Xu et al., 2025 <doi:10.1038/s41467-025-56669-1>). Additionally, it includes functions for simulating genotype and phenotype data to support research and method development.
+
+Development: https://github.com/cran/GRAB
 
 Current build status
 ====================
