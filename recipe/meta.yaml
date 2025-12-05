@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GRAB_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GRAB/GRAB_{{ version }}.tar.gz
-  sha256: edf855665ede1ec4288a6506b09c38393e9c0970ef401b4f33a4f3326d572523
+  sha256: 8c504972b19ece7e965c73b3c58abf9514f5119b7db20b7352b6a4249c0ee15e
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
