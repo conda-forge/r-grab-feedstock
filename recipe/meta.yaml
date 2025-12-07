@@ -29,6 +29,8 @@ requirements:
     - {{ compiler('m2w64_cxx') }}  # [win]
     - {{ stdlib("c") }}            # [not win]
     - {{ stdlib("m2w64_c") }}      # [win]
+    - {{ compiler('fortran') }}        # [not win]
+    - {{ compiler('m2w64_fortran') }}  # [win]
     - {{ posix }}filesystem        # [win]
     - {{ posix }}make
     - {{ posix }}sed               # [win]
