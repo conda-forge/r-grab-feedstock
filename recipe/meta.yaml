@@ -53,6 +53,7 @@ requirements:
     - libblas
     - liblapack
     - zlib
+    - libgfortran
   run:
     - r-base
     - r-data.table
