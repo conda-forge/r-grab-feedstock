@@ -1,4 +1,4 @@
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GRAB_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GRAB/GRAB_{{ version }}.tar.gz
-  sha256: 8c504972b19ece7e965c73b3c58abf9514f5119b7db20b7352b6a4249c0ee15e
+  sha256: 34e9a9223366d76d065c942b1e749a1cdb9c16a4622503d11a975059567b146b
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
   rpaths:
     - lib/R/lib/
     - lib/
@@ -80,8 +80,8 @@ about:
   home: https://CRAN.R-project.org/package=GRAB
   dev_url: https://github.com/cran/GRAB
   license: GPL-2.0-or-later
-  summary: Provides a comprehensive suite of genome-wide association study (GWAS) methods specifically designed for biobank-scale data. The package offers computationally efficient and robust association tests for time-to-event traits (e.g., Bi et al., 2020 <doi:10.1016/j.ajhg.2020.06.003>), ordinal categorical traits (e.g.,
-    Bi et al., 2021 <doi:10.1016/j.ajhg.2021.03.019>), and longitudinal traits (Xu et al., 2025 <doi:10.1038/s41467-025-56669-1>). Additionally, it includes functions for simulating genotype and phenotype data to support research and method development.
+  summary: Provides a comprehensive suite of genome-wide association study (GWAS) methods specifically designed for biobank-scale data. The package offers computationally efficient and robust association tests for time-to-event traits (e.g., Bi et al., 2020 <doi:10.1016/j.ajhg.2020.06.003>), ordinal categorical traits 
+    (e.g., Bi et al., 2021 <doi:10.1016/j.ajhg.2021.03.019>), and longitudinal traits (Xu et al., 2025 <doi:10.1038/s41467-025-56669-1>). Additionally, it includes functions for simulating genotype and phenotype data to support research and method development.
   license_family: GPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
